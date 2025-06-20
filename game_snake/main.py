@@ -12,7 +12,7 @@ HEIGHT = CELL_SIZE * GRID_HEIGHT
 FPS = 6
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Змейка с текстурами и поворачивающейся головой")
+pygame.display.set_caption("Змейка")
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 36)
 
